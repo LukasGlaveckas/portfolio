@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Lukas Glaveckas<span>.</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Work</a></li>
+                <li><a href="about.html" class="active">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="section" style="padding-top: 150px;">
+        <div class="container">
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--spacing-xl); align-items: center;">
+                <div class="glass" style="padding: 10px; border-radius: 20px;">
+                    <img src="https://placehold.co/600x600/111111/00E5FF?text=My+Photo" alt="Profile Photo"
+                        style="border-radius: 12px;">
+                </div>
+                <div>
+                    <h1>Hi, I'm a UX/UI Designer based in [City].</h1>
+                    <p style="font-size: 1.2rem; margin-bottom: var(--spacing-md); color: #fff;">I have 4 years of
+                        experience crafting digital products that are not only functional but also delightful to use.
+                    </p>
+                    <p>My journey started in graphic design, but I quickly fell in love with the interactive nature of
+                        the web. I believe that good design is invisible – it just works.</p>
+
+                    <div style="margin-top: var(--spacing-md);">
+                        <h3>Skills</h3>
+                        <div style="display: flex; gap: 10px; flex-wrap: wrap;">
+                            <span
+                                style="padding: 8px 16px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); color: var(--primary-color); border-radius: 20px;">Figma</span>
+                            <span
+                                style="padding: 8px 16px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); color: var(--primary-color); border-radius: 20px;">Prototyping</span>
+                            <span
+                                style="padding: 8px 16px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); color: var(--primary-color); border-radius: 20px;">HTML/CSS</span>
+                            <span
+                                style="padding: 8px 16px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); color: var(--primary-color); border-radius: 20px;">User
+                                Research</span>
+                            <span
+                                style="padding: 8px 16px; background: rgba(0, 229, 255, 0.1); border: 1px solid rgba(0, 229, 255, 0.3); color: var(--primary-color); border-radius: 20px;">Wireframing</span>
+                        </div>
+                    </div>
+
+                    <div style="margin-top: var(--spacing-md);">
+                        <a href="contact.html" class="btn">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 UX/UI Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
