@@ -632,13 +632,13 @@ footer {
 
 /* Special override for Makara hero image on desktop to prevent cropping */
 .project-cover.makara-hero {
-    height: auto;
+    height: 700px;
     min-height: auto;
 }
 
 .project-cover.makara-hero img {
-    height: auto;
-    object-fit: contain;
+    height: 100%;
+    object-fit: cover;
 }
 
 .project-meta {
@@ -773,7 +773,7 @@ footer {
     padding: 0;
     border-radius: 0;
     width: 100%;
-    margin: var(--spacing-lg) 0;
+    margin: var(--spacing-sm) 0 var(--spacing-lg) 0;
 }
 
 /* Mobile responsive for wireframes-results grid */
